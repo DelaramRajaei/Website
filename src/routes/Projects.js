@@ -33,24 +33,7 @@ function Projects() {
                         </div>
                         <ul>
                             <li>Language: Python</li>
-                            <li>Developed a game which can be played both manual and by neuroevolution algorithm. In this game there is an animal that should try to avoid obstacles and gain score.</li>
-                            <li>Used neuroevolution algorithm</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div className="d-flex justify-content-between">
-                            <span className="fw-bold">
-                                <a href="https://github.com/DelaramRajaei/SnailJumper-master">SnailJumper-Master</a>
-                            </span>
-                            <span className="fw-bolder bg-secondary text-light px-3">
-                                Winter 2022
-                            </span>
-                        </div>
-                        <ul>
-                            <li>Language: Python</li>
-                            <li>Developed a game which can be played both manual and by neuroevolution algorithm. In this game there is an animal that should try to avoid obstacles and gain score.</li>
+                            <li>•	Developed a game that can be played both manually or by a neuroevolution algorithm. In this game, there is an animal that tries to avoid obstacles and gain scores.</li>
                             <li>Used neuroevolution algorithm</li>
                         </ul>
                     </td>
@@ -68,7 +51,7 @@ function Projects() {
 
                         <ul>
                             <li>Language: Python</li>
-                            <li>Created a pendulum fixing on top of the cart in reverse. The cart can move either left or right with different speed in order to keep the pendulum fixed on top.</li>
+                            <li>Created a pendulum fixed on top of the cart in reverse. The cart can move either left or right at a different speed in order to keep the pendulum stable. </li>
                             <li>Used fuzzy logic</li>
                         </ul>
                     </td>
@@ -86,7 +69,7 @@ function Projects() {
 
                         <ul>
                             <li>Language: Python</li>
-                            <li>Created a machine recognizing three different fruits.</li>
+                            <li>•	Implemented a deep learning model that recognizes and distinguishes three different types of fruits.</li>
                             <li>Used neural network</li>
                         </ul>
                     </td>
@@ -121,7 +104,7 @@ function Projects() {
 
                         <ul>
                             <li>Language: Java</li>
-                            <li>Developed a robot choosing the optimal way in order to bring butter to a person on a table. There is a table full of obstacles, n butters (at least one) and n people who are waiting around the table to be served by the butter. The robot has the responsibility to push the butter to a person with less possible moves. It can move in 4 ways, up, down, left and right.</li>
+                            <li>Developed a robot choosing the optimal way in order to deliver butter to a person on a table. There is a table full of obstacles, n number of butter slices (at least one), and a corresponding number of people who are waiting around the table to be served by the butter piece(s). The robot has the responsibility to give the butter to a person with fewer possible moves. It can move in 4 ways: up, down, left, and right.</li>
                             <li>Implemented iterative deepening depth-first search (IDS) algorithm</li>
                         </ul>
                     </td>
@@ -192,7 +175,7 @@ function Projects() {
 
                         <ul>
                             <li>Language: Java</li>
-                            <li>Implemented Spotify. Developed an application for listening to music and can share the name of the song with your friends.</li>
+                            <li>Implemented Spotify. Developed an application for listening to music and can share songs with your friends.</li>
                         </ul>
                     </td>
                 </tr>
