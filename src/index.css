@@ -1,8 +1,0 @@
-body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #a3abad url(../public/bg.jpeg) 0 0 no-repeat;
-  background-size: cover;
-}
