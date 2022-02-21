@@ -1,7 +1,8 @@
 function Sidebar() {
-    return <><img src='https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y' className='img-thumbnail w-100'
+    return <>
+        {/* <img src='https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y' className='img-thumbnail w-100'
         alt='thumbnail'>
-    </img>
+    </img> */}
         <ul className='list-group'>
             <li className='list-group-item'>
                 <i class="bi px-3 bi-envelope"></i>
@@ -13,11 +14,15 @@ function Sidebar() {
             </li>
             <li className='list-group-item'>
                 <i class="bi px-3 bi-linkedin"></i>
-                https://www.linkedin.com/in/delaram-rajaei/
+                <a target="_blank" href="https://www.linkedin.com/in/delaram-rajaei/">
+                    https://www.linkedin.com/in/delaram-rajaei/
+                </a>
             </li>
             <li className='list-group-item'>
                 <i class="bi px-3 bi-github"></i>
-                https://github.com/DelaramRajaei
+                <a target="_blank" href="https://github.com/DelaramRajaei">
+                    https://github.com/DelaramRajaei
+                </a>
             </li>
             <li className='list-group-item'>
                 <i class="bi px-3 bi-mailbox"></i>
