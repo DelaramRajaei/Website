@@ -3,9 +3,9 @@ function Menu() {
         <div className="row">
             <div className="col-8 offset-4">
                 <span className="top-menu-title">
-                    <span className="first-name fs-1 text-muted">Delaram</span>
+                    <span className="first-name fs-1 text-muted text-uppercase">Delaram</span>
                     &nbsp;
-                    <span className="last-name fw-bold fs-1">Rajaei</span>
+                    <span className="last-name fw-bold fs-1 text-uppercase">Rajaei</span>
                 </span>
             </div>
         </div>
