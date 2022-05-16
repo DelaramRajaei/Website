@@ -257,10 +257,11 @@ function Home() {
                         <span className="small">
                             A <i>bioinformatic</i> project. Two protein sequences are given and they ought to be aligned using dynamic programming method in a way to get the best possible score.
                         </span>
-                        Tech stack:
-                        <ul className="section-list">
-                            <li>Programming language: Python</li>
-                        </ul>
+                        <p>Tech stack:
+                            <ul className="section-list">
+                                <li>Programming language: Python</li>
+                            </ul>
+                        </p>
                         <p>
                             Link:{" "}
                             <a
@@ -278,10 +279,12 @@ function Home() {
                         <span className="small">
                             Working with datasets and learn how to use <i>pandas</i> library by simple practical tasks such as deleting noisy data and detecting outliers.
                         </span>
-                        Tech stack:
-                        <ul className="section-list">
-                            <li>Programming language: Python</li>
-                        </ul>
+                        <p>
+                            Tech stack:
+                            <ul className="section-list">
+                                <li>Programming language: Python</li>
+                            </ul>
+                        </p>
                         <p>
                             Libraries used in this project:{" "}
                             <span className="text-decoration-underline">
