@@ -1,0 +1,15 @@
+.side-menu {
+  color: #aaa;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.side-menu li:not(:first-child):not(:last-child) {
+  padding: 5px 0;
+}
+
+.side-menu li.active {
+  color: #1d824c;
+  border-bottom: 2px solid;
+  border-color: #1d824c;
+}

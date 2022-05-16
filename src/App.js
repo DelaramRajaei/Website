@@ -6,17 +6,15 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className='container-fluid'>
-      <div className='col-8 offset-2'>
-        <div className='row p-3'>
-          <Menu />
+      <div className='row fixed-top'>
+        <Menu />
+      </div>
+      <div className='row main-content'>
+        <div className='col-4 pr-5 pr-md-0 offset-md-1 col-md-3 position-fixed'>
+          <Sidebar />
         </div>
-        <hr />
-        <div className='row'>
-          <div className='col-4 p-3'>
-            <Sidebar />
-
-          </div>
-          <div className='col-8 p-3'><Outlet /></div>
+        <div className='col-8 offset-4 col-md-7'>
+          <Outlet />
         </div>
       </div>
     </div>

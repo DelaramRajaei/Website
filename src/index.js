@@ -8,19 +8,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Home from './routes/Home';
-import CV from './routes/CV';
-import Projects from './routes/Projects';
-import Certificates from './routes/Certificates';
 
 ReactDOM.render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
-        <Route path="cv" element={<CV />} />
-        {/* <Route path="publication" element={<Publication />} /> */}
-        <Route path="projects" element={<Projects />} />
-        <Route path="certificates" element={<Certificates />} />
         {/* <Route path="gallery" element={<Gallery />} /> */}
       </Route>
       <Route path="*" element={<App />} />

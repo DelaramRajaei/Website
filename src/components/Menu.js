@@ -1,18 +1,16 @@
-import { Link } from "react-router-dom";
-
 function Menu() {
-    const menuItems = [
-        { title: 'homepage', link: '/' },
-        { title: 'cv', link: '/cv' },
-        // { title: 'publications', link: '/publications' },
-        { title: 'projects', link: '/projects' },
-        { title: 'certificates', link: '/certificates' },
-        // { title: 'gallery', link: '/cergallerytificates' },
-    ];
-    const menus = menuItems.map(item => <li key={item.title} className="nav-item mx-4"><Link to={item.link}>{item.title}</Link></li>);
-    return (<ul class="nav text-uppercase justify-content-center fw-bold">
-        {menus}
-    </ul>);
+    return <div className="d-flex flex-column justify-content-end top-menu">
+        <div className="row">
+            <div className="col-8 offset-4">
+                <span className="top-menu-title">
+                    <span className="first-name fs-1 text-muted">Delaram</span>
+                    &nbsp;
+                    <span className="last-name fw-bold fs-1">Rajaei</span>
+                </span>
+            </div>
+        </div>
+        <hr />
+    </div>;
 }
 
 export default Menu;
