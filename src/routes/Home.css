@@ -93,7 +93,8 @@ section .teaching-item {
   padding: 0.5rem 0.2rem;
 }
 
-section .project-item:not(:first-child):not(:last-child),
-section .teaching-item:not(:first-child):not(:last-child) {
+section .project-item:not(:last-child),
+section .teaching-item:not(:last-child),
+section .work-item:not(:last-child) {
   border-bottom: #1d824c 1px solid;
 }
