@@ -88,11 +88,12 @@ function Home() {
                 <div className="section-body">
                     <ul className="section-list">
                         <li>Computer Vision</li>
+                        <li>Fuzzy Logic</li>
                         <li>
                             Natural Language Processing (NLP) In Artificial Intelligence
                         </li>
-                        <li>Reinforcement Learning</li>
                         <li>Machine Learning</li>
+                        <li>Reinforcement Learning</li>
                     </ul>
                 </div>
             </section>
