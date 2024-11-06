@@ -75,25 +75,25 @@ function Home() {
                     About me
                 </span>
                 <div className="section-body">
-                    Curious and dedicated computer engineering student (3.75 GPA)
-                    currently attending Amirkabir University of Technology (AUT),
-                    voracious desire to learn more about Artificial intelligence and
-                    Machine Learning.
+                    Master of Science graduate with a passion for AI. 
+                    A curious mind, hardworking, and dedicated programmer, 
+                    always eager to learn and explore new challenges.
                 </div>
             </section>
             <section id="section-interests">
                 <span id="section-title-interests" className="section-title">
-                    RESEARCH INTERESTS
+                    INTERESTS
                 </span>
                 <div className="section-body">
                     <ul className="section-list">
-                        <li>Computer Vision</li>
-                        <li>Fuzzy Logic</li>
-                        <li>
-                            Natural Language Processing (NLP) In Artificial Intelligence
-                        </li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Artificial Intelligence (AI)</li>
                         <li>Machine Learning</li>
-                        <li>Reinforcement Learning</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                    <ul className="section-list">
+                        <li>Software</li>
+                        <li>Web Development</li>
                     </ul>
                 </div>
             </section>
@@ -102,16 +102,30 @@ function Home() {
                     EDUCATION
                 </span>
                 <div className="section-body">
-                    <span className="section-date">SEP 2018 - PRESENT</span>
+                    <span className="section-date">MAY 2023 - AUG 2024</span>
+                    <p>
+                        MASTER’S DEGREE, UNIVERSITY OF WINDSOR MSc. of
+                        Computer Science | Windsor, ON, Canada
+                    </p>
+                    <ul className="section-list">
+                        <li>Major GPA: 4.00/4.00</li>
+                        <li>Major: Artificial Intelligence</li>
+                        <li>Thesis Subject: Artificial Intelligence (AI), Natural Language Processing (NLP), Query Refinement, Recommender Systems</li>
+                        <li>Took most optional courses in the network field.</li>
+                    </ul>
+                </div>
+                <div className="section-body">
+                    <span className="section-date">SEP 2018 - APR 2023</span>
                     <p>
                         BACHELOR’S DEGREE, AMIRKABIR UNIVERSITY OF TECHNOLOGY (AUT) B.Sc. of
-                        Computer Engineering, IT (7th Semester) | Tehran, Iran
+                        Computer Engineering | Tehran, Iran
                     </p>
                     <ul className="section-list">
                         <li>Major GPA: 3.75/4.00</li>
-                        <li>Major: Artificial intelligence and Machine learning</li>
+                        <li>Major: Artificial Intelligence and Machine Learning </li>
                         <li>Minor: Software</li>
-                        <li>Took most optional courses in network field.</li>
+                        <li>Thesis Subject: Artificial Intelligence (AI), Computer Vision, Transfer Models</li>
+                        <li>Took most optional courses in the network field.</li>
                     </ul>
                 </div>
             </section>
